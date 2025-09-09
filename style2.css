@@ -1,0 +1,38 @@
+/* page resert */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+h1 {
+    width: 500px; /* largura */
+    height: 500px; /* altura */
+    padding: 20px; /* espaçamento interno */
+    border: black solid 10px; /* borda */
+    font-size: 70px; /* tamanho da fonte */
+    color: white; /* cor da letra */
+    background-color: red; /* cor de fundo */
+}
+
+a {
+    border: solid 4px transparent; /* borda */
+    display: inline-block; /* transformar em bloco */
+    text-decoration: none; /* retirar o sublinhado */
+    background-color: rgb(105, 105, 231); /* cor de fundo */
+    color: white; /* cor da letra */
+    padding: 10px 30px; /* espaçamento interno */
+    margin: 10px; /* espaçamento externo */
+    border-radius: 100px; /* borda arredondada */
+    text-transform: uppercase; /* deixar todas as letras maiusculas */
+    font-family: monospace; /* mudar o tipo da letra */
+    transition: 300ms; /* tempo de transição ou 0,3s*/ 
+    
+    
+}
+
+a:hover {
+    border: solid 4px black; /* adicionar borda */
+    background-color: rgb(191, 191, 194);
+}
